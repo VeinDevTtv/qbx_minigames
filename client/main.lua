@@ -141,8 +141,8 @@ local minigames = {
     thermite = function(difficulty, duration, callback)
         local config = {
             difficulty = difficulty or "normal", -- easy, normal, hard
-            duration = duration or 8000, -- time in ms to memorize the pattern
-            displayTime = 3000, -- time in ms to show the answers
+            duration = duration or 8000, -- time in ms for recall phase
+            displayTime = 3000, -- time in ms to show the pattern
             soundEnabled = true
         }
         
