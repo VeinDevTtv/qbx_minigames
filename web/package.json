@@ -1,0 +1,22 @@
+{
+  "name": "qbx_minigames",
+  "version": "1.0.0",
+  "description": "Minigames for QBX Framework",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "svelte": "^4.2.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.5",
+    "@tsconfig/svelte": "^5.0.0",
+    "svelte-check": "^3.5.0",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+} 
